@@ -1,0 +1,32 @@
+Forecasting-new/
+├── examples/                  # 示例代码
+│   ├── train_complete_model.py
+│   └── train_model.py
+├── models/                    # 神经网络模型
+│   ├── __init__.py
+│   ├── attention.py          # 注意力机制实现
+│   ├── conv_gru.py           # 卷积GRU模型
+│   ├── diffusion.py          # 扩散模型
+│   ├── ensemble.py           # 模型集成方法
+│   └── transformer.py        # Transformer模型
+├── notebooks/                 # Jupyter Notebook文件
+│   ├── BiGRUEncoderDecoder.ipynb
+│   ├── ConVBiGRUAtteintion_multisteps.ipynb
+│   ├── DataProcessing.ipynb
+│   ├── DiffusionModel.ipynb
+│   ├── EncoderonlyTransformer.ipynb
+│   └── PeoridAnalysis.ipynb
+├── src/                       # 源代码
+│   ├── __init__.py
+│   ├── data_augmentation.py  # 数据增强方法
+│   ├── data_processor.py     # 数据预处理
+│   ├── decomposition.py      # 时间序列分解
+│   ├── feature_selection.py  # 特征选择
+│   ├── metrics.py            # 评估指标
+│   ├── time_features.py      # 时间特征提取
+│   ├── trainer.py            # 模型训练器
+│   └── utils.py              # 工具函数
+├── tests/                     # 测试文件（待添加）
+├── README.md                  # 项目说明
+├── requirements.txt           # 依赖包
+└── .gitignore                # Git忽略文件
