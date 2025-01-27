@@ -32,6 +32,7 @@ data/
 *.pkl
 *.h5
 *.npy
+*.xlsx
 
 # Logs and databases
 *.log
